@@ -13,8 +13,8 @@
 
 <section>
 	<h1>
-		<span class="welcome">
-			<picture>
+		<span>
+			<picture class="welcome">
 				<source srcset="svelte-welcome.webp" type="image/webp" />
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
@@ -26,8 +26,9 @@
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
 	</h2>
-
+	
 	<Counter />
+	<img src="amana_p_ssr7_f.png" alt="Welcome" width="681px" height="384px"/>
 </section>
 
 <style>
